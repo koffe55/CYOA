@@ -1,0 +1,179 @@
+Capstone Project.
+Don’t copy numbers into program. Unless specified as Choose 1 or 2.
+
+(THIS IS AN END) : Goes to a photo citation page.
+[0]
+Where do you want to start? 
+(1)Cabin 
+(2) Forest 
+(3) Cave  
+(4) River
+
+If selected start at the cabin [1]:
+ 	Today is the big day! Your friends arranged a hiking trip to celebrate the end of the school year, and you are all staying in your crush’s family cabin. Your only supervision is the house cat, Franklin, and he’s not even around that often. Everyone woke up fresh and excited, but not you. This morning, you woke up quite sick! Oh, no.
+Do you want to:
+(4) Go to the store for medicine.
+(5) Stay in the cabin, your friends will hike without you while you recover.
+(6) Fight through those sniffles! You have a hiking trip to go on. To the trail!
+
+If selected [4]
+	You head out early, before your friends leave for the trail, and drive in the direction you think is towards the local convenience store to pick up cold medicine. You want to be in tip-top shape for this hike. Music blaring through the speakers, you are slow to notice the sputtering coming from the engine of your mom’s ten year old minivan, and you drift to a stop on the side of a road whose name you cannot recall. Unable to get the car to start, you have three options:
+	(7) Walk to the store, it cannot be that far away.
+	(8) Stay in the car. The world is a scary place, and you are very alone and very lost.
+	(9) Walk back to the cabin.  You can only be sure of the way you came, but then again, it is no easy, or short, walk.
+
+If selected [7]
+	Which way, which way?
+	(10) Up
+	(11) Down
+
+If selected [10]
+Oh my, this cannot be right at all. It seems you’re walking into nothing but trees. Can you even see a trail at this point? So, so lost. 
+(2) Forest  <person should not be able to select this it should go straight there.
+
+If selected [11]
+	Your directional skills are excellent, what natural talent! You entered the dingy, secluded convenience store with creeping dread, and you rush through your purchase of the only box of cold medicine you can find.
+ “You really shouldn’t be here alone should you?” the cashier sneers.
+“Uh, no, I’m not alone my friend is right out here…” you stammer unconvincingly as you scramble back out into the sunlight. It’s only nine am, so you have an hour until your friends leave for the trails. But where did you come from again? Which way should you be walking?
+(12) Left. Definitely left. No, wait. That doesn’t look right.
+(13) Right. Maybe. Or… maybe not? This doesn’t look right either.
+
+If selected [12]
+	Your sense of direction really is on point. It was a long walk back, and you had a lot of doubts, but sticking to your gut was the best decision. You managed to catch your friends before they left, and even convinced your crush to stay back and keep you company for today’s hike while you recover. You’ll get the minivan tomorrow. Today was strangely successful. Good job!
+[0] Restart!
+
+If selected [13]
+	Maybe that sense of direction isn’t so great. It seems you’re walking into nothing but trees. Can you even see a trail at this point? So, so lost. Didn’t you just see that big rock?
+(2) Forest  <person should not be able to select this it should go straight there.
+
+If selected [8]
+	Staying in the car is probably best. Could those be rain clouds behind you? Your phone! You have your cell phone. What a genius idea… wait did you charge that last night? 
+	(14) 1
+	(15) 2
+
+If selected [14]
+	Lucky day! You have service and there is enough battery left for one phone call. Who are you going to call? 
+	(16) Call your crush.
+	(17) Call your friend.
+	(18) Ghostbusters!
+
+If selected [16]
+	Sweet! Your crush picked up and is going to come get you before everyone heads out for the trail. 
+	(110) Cabin for the second time. <Person should not be able to select this it should go straight there.
+
+If selected [17]
+	Your friend didn’t pick up and you could not leave a voicemail before the phone died. Guess it’s time to walk.
+ 	(7)  < Should go straight there no selection
+
+If selected [18]
+	I don’t have Billy Murray’s number! And neither do you. Try again.
+	(14) < Should go straight there no selection
+
+If selected [15]
+	Your phone won’t turn on. No phone, no car. Guess it’s time to walk.
+	(7)  < Should go straight there no selection.
+
+[110] 110 is a modified 1 with the options 5 & 6 that will take the same paths as the 5 & 6 in (1) and that doesn’t include the option of going to the store, seeing as that is exhausted
+	You are still sick, you don’t have medicine and you definitely do not have a car to get any. Your friends stuff their packs with essentials, excitedly chattering about the weather, the trail, and whether or not it is truly essential to bring that tenth bottle of water.  
+Your crush turns, “Do you think you can make it out with us today?”
+“Hmm..” you pause, 
+(5) “Actually, I think I feel too sick to go today. I should just post up here, watch T.V. and try to recover so I can join you all tomorrow”
+(6) “Yeah, you know what, I will.” With that, you begin to pack.
+  
+
+If selected [5]
+	From the porch, you watch your friends leave, chattering excitedly about the river and the trail. The novelty of being on their first solo hike hasn’t worn off yet, and noticing this makes you want to join them even more, but you retreat into the house when the trees swallow the party whole. You need to get better, and fast, so you can join them tomorrow.
+To the kitchen or the couch? …Man, when everyone is gone it feels kind of strange in here, creepy almost. 
+(18) Make lunch. The grumble coming from your stomach is making the house cat glare at you.
+(19) Go watch TV. You’re exhausted, and the couch looks really inviting.
+
+If selected [18]
+	Great! Okay what do we have? Canned soup, lunchmeat, and bread. How appetizing …
+	(20) Soup
+	(21) Sandwich
+
+If selected [20]
+	Soup it is. There’s no microwave in here, so you have to use the gas stove, which you’re almost positive you remember how to use. After searching for a while for a pot, you find a suitable one and pour the soup and some extra water in. Ten minutes isn’t that long so you decide to wait in the kitchen and see what else you can find. While your head is stuck in a bottom cupboard examining the array of spices, something streaks by behind you and, surprised, your head hits the shelf above it with astonishing force when you jump backwards out of the cabinet in time to see a white, fluffy tail disappear into the living room. Darn cat. 
+	(22) Chase the cat. 
+
+If selected [22]
+	You find Franklin lounging in what appears to be an enormous library. After administering a stern scolding to the cat, you decide to explore the library. What if you pull one of these books out, and the door swings open to reveal more secret rooms, passageways, maybe even hidden treasure! Your day dream gets a little carried away as you move through the room, pulling books down and putting them back when no magical door appears. When you get to the end of the row, you are pulled out of your fantasy by the smell of … smoke? Your soup! Oh, no; oh, no; oh, no! You almost fly into the kitchen to discover a fire that has not only claimed the stove itself but the surrounding cabinets.
+	(23) RUN!
+	(24) Put it out! Quick, before the whole cabin is ash and you’re to blame.
+
+If selected [23]
+	You sprint out the front door, and, glancing behind you to make sure the fire isn’t closing in, you spot Franklin, looking panicked, by the doorway to the living room. You pause in the middle of the yard, staring at the house cat you barely know, making the hard decision.
+	[25] Go back into the house to save him!
+	[26] Keep running towards the woods. You’re sure he’ll make it out. Plus, cats have nine lives and you only have one. Right?
+
+If selected [25]
+	Franklin sprints farther into the house as soon as you start running towards him, but you committed to saving his furry little life and you’re not going to give up that easy. You run up the stairs after him just in time to see him leap from the second story window. Cats do always land on their feet. You turn to make a quick exit down the stairs, but the fire has already started its way up.
+	Two days later, your friends arrive home, battered from trails they got lost on.
+	“Wha… what happened?” your crush stammers out. The house is gone. So are you.
+	(THIS IS AN END)
+
+If selected [26]
+	You feel a little guilty running into the woods, but its quickly overwhelmed by your relief to be alive. That cat is too crafty not to make it out alive. Your friends haven’t been gone that long! Maybe you could find them and tell them what happened if you could just find the trail. Haven’t you seen that big rock before?
+	(2) Forest < person should not have to select this it should go right there.
+
+If selected [24]
+	You look around frantically for that big red thing that normally puts out fires with a gust of white, fluffy air, but you are at a loss. You grab blankets from the couch and start beating the fire with it, because you think you saw that in a movie once. Franklin screeches past you out the front door; his tail is on fire, as are the blankets you’re holding.
+	Two days later, your friends arrive home, battered from trails they got lost on.
+	“Wha… what happened?” your crush stammers out. The house is gone. So are you.
+	(THIS IS AN END)
+
+If selected [21]
+	Good choice. Quick and easy, and you even found lettuce and tomato. After crafting possibly the most beautiful and appetizing sandwich you have ever seen in your life, you have to find a place to eat it.
+	[27] To the couch! You can watch TV while you enjoy this masterpiece of food.
+	[28] To the porch! It’s such a lovely day.
+If selected [27]
+	(19)  < Should go straight to 19 no text.
+
+If selected [28]
+	The sun filters in patches onto the porch, and the swing is positioned right in the center of one. You relax, eating and enjoying the warmth. Half way through your sandwich, you notice a man walking calmly up the drive to the porch. Your heart starts to quicken; you have always been told not to talk to strangers. His gait is self-assured and seemingly harmless enough to convince you to stay. After all, he’s already seen you.
+	“Hello, there. I was wondering,” Wait. He looks awfully familiar… “If I could get a jug of water from you? I work at the convenience store down the way, and you’re the only occupied cabin for miles.” The emphasis on miles does nothing to comfort you. “My truck broke down, overheated actually, ‘bout half a mile away. It’s just the radiator, I think. Water should be enough to get me home.” Where is home? Why is he here and talking to me? You notice you haven’t said a word to him yet, and also that he hasn’t exactly said anything threatening. If you don’t get him water, it’s not like he can just drive away.
+	[29] “Uh, yeah. Stay here, let me go get it.”
+	[30] “Sure, you have a bottle right? The kitchen is this way.”
+
+If selected [29]
+	He ignores your command and follows you in anyway. How charming. Again, you feel uneasy, especially when Franklin hisses at the man before scuttling away. 
+	“It’ll just be easier if I come in, really,” he says, “promise, I’ll be quick.”
+	You smile at him warily and wait for him to finish filling up the old milk jug. 
+	“Thanks for your help. I don’t know what I would have done if it weren’t for you being here … uh, tell your… parents?” he questions, peering over your shoulder and into the hall, “I said thank you and to watch their cars. There’s been some weird things happening around here recently.” 
+	“Sure thing, I will definitely tell them. Goodbye, sir. Have a nice day!” you say, forcing out a cheerful smile. As soon as he is out the door, you bolt it shut, lock all the windows in the house, and hide in the bathroom upstairs with the cat until your friends come home, dirty from their hike. After telling them all of the terribly strange things that happened today, they agree it’s best to tonight at the latest. What a strange, strange trip.
+(THIS IS AN END)
+
+If selected [30]
+	“Thanks,” he smirks, glancing around as he steps foot inside the door. “This should work fine,” you think you hear him murmur.
+	“Uh, what?” you spin around in time to see him, weapon raised, smile that creepy convenience store grimace. This was the most unfortunate choice. Maybe you should have had soup?
+(THIS IS AN END)
+
+If selected [19]
+	The couch was a great choice; it’s even more comfortable than it looks. And old cartoons are on, which are, of course, your guilty pleasure. Fifteen minutes in to Scooby Doo, you hear a knock that, at first, you assume is the monster pursuing Daphne and Fred. When it repeats, your confusion grows.  You glance at the front door and see a human sized shadow on the curtain. 
+	[31] Hide!
+	[32] Answer the door.
+
+If selected [32]
+	You approach the door with quick strides, but your resolve is diminishing the closer you get to the door. Your heart starts to quicken; you have always been told not to talk to strangers, but he has already seen you. You swing the door open, hoping fervently that it’s your friends. It’s not.
+	“Hello, there. I was wondering,” Wait. He looks awfully familiar… “If I could get a jug of water from you? I work at the convenience store down the way, and you’re the only occupied cabin for miles.” The emphasis on miles does nothing to comfort you. “My truck broke down, overheated actually, ‘bout half a mile away. It’s just the radiator, I think. Water should be enough to get me home.” Where is home? Why is he here and talking to me? You notice you haven’t said a word to him yet, and also that he hasn’t exactly said anything threatening. If you don’t get him water, it’s not like he can just drive away.
+	[33] “Uh, yeah. Stay here, let me go get it.”
+	[30] “Sure, you have a bottle right? The kitchen is this way.”
+
+If selected [33] 
+	He ignores your command and follows you in anyway. How charming. Again, you feel uneasy, especially when Franklin hisses at the man before scuttling away. 
+	“It’ll just be easier if I come in, really,” he says, “promise, I’ll be quick.”
+	You smile at him warily and wait for him to finish filling up the old milk jug. 
+	“Thanks for your hospitality,” he says menacingly, “I think I’ll stay a while.”
+	[34] “What!?”
+	[35]  RUN.
+
+If selected [35]
+	You sprint with all of the power in your legs out the door and into the forest. You’re hoping the tree cover will disguise you quickly enough that he won’t be able to find you. You glance back occasionally and over time, he disappears. You slow to a jog, unwilling to stop moving forward even though your legs are screaming, and your heart is pounding twice as fast as your feet. 
+	(2) < should go straight there no choice.
+
+If selected [34]
+
+If selected [31]
+
+If selected [2]
+	After wandering for what feels like a lifetime, slowly building up panic in your chest, you run straight into something while looking behind you. Oh! It’s your crush, and a wave of relief soothes you.
