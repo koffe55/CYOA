@@ -27,4 +27,5 @@ It's been a long time since you've been able to lay down and rest. Your supplies
 
 This example demonstrates a prompt ('It's been a long time.....for you to restock.') numbered 12. The three options of 84 124, and 3, whose numbers are not visible to the reader, inform the program of which prompt should be delivered if the reader makes its associated decision. 
 
-
+****Liscence****
+CYOA is released under a Create Commons Liscence. Anyone may use or develop the platform for entertainment, education, or informative purposes without commercial 

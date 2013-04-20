@@ -23,17 +23,17 @@ class cyoagui(Tkinter.Tk):
 
     def initialize(self):       #GUI stuff.
         self.grid()
-       
+
+               #frame that contains the entire GUI
         self.frame = Tkinter.Frame(self, bg=self.color)
         self.frame.grid(sticky='NWSE')
         self.frame.rowconfigure('all', minsize = 200)
         self.frame.columnconfigure('all', minsize = 200)
-        
+
+                #entry variable. outdated, just has keybinding now
         self.entryVariable = Tkinter.StringVar()        #holds whats in the box
         self.entry = Tkinter.Entry(self, textvariable = self.entryVariable)
-        #self.entry.grid(column=0, row=0, sticky='NW')       #place the text entry
         self.entry.bind("<Return>", self.OnPressEnter)      #Bind <enter> key to an event
-       # self.entryVariable.set(u"Enter text here.")
 
        
 
@@ -54,16 +54,14 @@ class cyoagui(Tkinter.Tk):
         self.choicetxt.set(u"Choices will be displayed below.\n")
 
 
-            #configuartion
+                #configuartion
         for r in range(7):
             self.rowconfigure(r, weight=1)
         for c in range(4):
             self.columnconfigure(c, weight=1)
 
         #self.grid_columnconfigure(0, minsize=500, weight=1) 
-        self.resizable(True,True)     #make the window resizable horizontally, vertically
-        #self.update()
-        #self.geometry(self.geometry())      #don't automatically resize based on text entered
+        self.resizable(False,False)     #make the window resizable horizontally, vertically
         self.entry.focus_set()
         self.entry.selection_range(0, Tkinter.END)
 
@@ -122,14 +120,14 @@ class cyoagui(Tkinter.Tk):
             self.choicetxt.set(prompt)
 
 
-    def OnPressEnter(self,event):
-        self.OnNext()
-
     def OnExit(self):
         ans = mess.askokcancel("Really quit?","Are you sure you want to quit? All story progress will be lost.")
         if ans == True:
             self.destroy()
 
+    def OnPressEnter(self,event):
+        self.OnNext()   #Pressing enter is just like clicking next.
+        
     def OnNext(self):
         print ("this is the value you chose... "+str(self.v.get()))
         question = self.v.get()
@@ -137,8 +135,6 @@ class cyoagui(Tkinter.Tk):
         self.CreateRadio(question)
         prompt = self.reader.GetText(question)
         self.choicetxt.set(prompt)
-        
-        pass
     
     def ClearRadio(self):
         try:
@@ -148,12 +144,10 @@ class cyoagui(Tkinter.Tk):
             return
         for i in range(len(self.b)):
             self.b[i].destroy()
-        #print 'Done clearing radio buttons.'
+
 
     def CreateRadio(self, question):
         self.ClearRadio()               #clear previous buttons
-        #size = self.LabelPos()
-        
         data= self.reader.choices(question)
         if not data:
             print 'ERROR, Trying to create radiobuttons but cant get good data'
@@ -167,12 +161,10 @@ class cyoagui(Tkinter.Tk):
         self.num_buttons = len(self.numbers)     #how many buttons?
         self.b= range(len(self.numbers))         #declare buttons.
         for i in range(len(self.numbers)):
-            #print i, self.choices[i], self.numbers[i], self.b
             self.b[i] = Tkinter.Radiobutton(self.frame, text=self.choices[i], background=self.color,
                                        variable=self.v, value=self.numbers[i], wraplength=800)
             self.b[i].grid(column=0, row=(3+i), sticky='w')
-            #self.b[i].grid(column=0, sticky='w') #dont specify row?? better?
-        print "Done creating buttons"
+        #print "Done creating buttons"
 
 if __name__ == "__main__":
     app = cyoagui(None)
@@ -196,21 +188,9 @@ if __name__ == "__main__":
         #labelframe.grid(column=0, row=1, sticky='NW')
         #labelframe.pack(fill="both", expand="yes")
 
-# built using Seb Sauvage's http://sebsauvage.net/python/gui/#import
 
-  #generic button
-        #button = Tkinter.Button(self, text=u"Click me!", command=self.OnButtonClick)
-        #button.grid(column=2, row=0, sticky='NW')
 
-##   def play(self):
-##        txt = reader.pose()
-##        print(txt)
-##        self.questiontxt.set(txt)
 
-##    def OnPressEnter(self,event):
-##        self.questiontxt.set(self.entryVariable.get()+" (You pressed ENTER)" )
-##        self.entry.focus_set()
-##        self.entry.selection_range(0,Tkinter.END)
 
 
             #Image
@@ -222,7 +202,4 @@ if __name__ == "__main__":
 ##        label7 = Tkinter.Label(image=photo)
 ##        label7.grid(column=5, row=6)
 
-##    def OnButtonClick(self):
-##        self.questiontxt.set(self.entryVariable.get()+" (You clicked the button.)")
-##        self.entry.focus_set()
-##        self.entry.selection_range(0, Tkinter.END)
+

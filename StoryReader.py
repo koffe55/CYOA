@@ -11,7 +11,6 @@ class StoryReader:
         try:
             with open ("story.txt", "r") as myfile:
                 self.story=myfile.read().replace('\xe2\x80\x99', '\'')
-                #self.story=self.story.replace('\xe2\x80\x9c', '\"').replace('\xe2\x80\x9d', '\"')
         except:
             print("Couldn't find the story.txt file." +
                   "Make sure that this text file is in the same"
@@ -57,8 +56,6 @@ class StoryReader:
                     firstletter=r"[a-zA-Z].*"           #remove number at beginning
                     text = re.search(firstletter, options)
                     text = str(text.group())
-                    
-                    #optlist += [text, num]
                     temp = [text, num]
                     optlist += temp
                 else:
@@ -86,7 +83,7 @@ class StoryReader:
     def choices(self, question):
         x = self.CheckQuestion(question)
         if not x:
-            return ['There has been an error']
+            return ['Error, that quesiton doesnt exit.']
         
         block = self.FindBlock(question, self.splitup) #get textblock    
         optlist = self.GetOptions(block)        #pass it here to serpeate out options
@@ -94,43 +91,6 @@ class StoryReader:
         return optlist
    
 
-
-
-
-##    def choices(self, question):
-##        val = self.parse(question)
-##        return val
-##
-##
-##
-##        #packs a list of the text and numbers
-##
-##        #find the question
-##        reg = r"\[" + str(question) +"\]" #capture [5] or [99]
-##        print reg
-##        for words in self.story:
-##            #if re.match("(.*)\((.*)\)", line):          #change line to paragraph
-##            if re.match(reg, line):
-##                print ("Parsing"+line)
-##                val = line
-##                #while  re.match("(.*)\((.*)\)") is False:
-##                while  re.match(r"\[") is False:
-##                    pass
-####                if re.search( "("+qnumber+")", self.story):
-####                    #print everything until next number
-####                    pass
-##
-##                pass
-##        #split the questions up
-##        #splitup = re.split(r'(.*)\((.*)\)', self.story); #make a list with number then text?
-##
-##        #example
-##        self.parse(question)
-##        val = [
-##        ("Jump off a bridge.", 1),
-##        ("Go home.", 2)
-##        ]
-##        return val
 
 
     #def storyloop(self):                #dont use this.
