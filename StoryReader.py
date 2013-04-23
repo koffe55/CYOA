@@ -10,7 +10,8 @@ class StoryReader:
     def loadstory(self):
         try:
             with open ("story.txt", "r") as myfile:
-                self.story=myfile.read().replace('\xe2\x80\x99', '\'')
+                self.story=myfile.read().replace('\xe2\x80\x99', '\'').replace('\r', '\n').replace('\t', '')
+            print repr(self.story)
         except:
             print("Couldn't find the story.txt file." +
                   "Make sure that this text file is in the same"
@@ -35,26 +36,32 @@ class StoryReader:
             block = re.match(reg3, questions, re.DOTALL)
             if block:
                 return block.group()
-            
+        print 'Cant find question block.'
     
     def GetOptions(self, block):        #takes question block, returns choice text, number
         optlist =[]
         optblock = re.findall(r"\(.*", block)      #find all options
         if optblock:
-            #print optblock
+            print optblock
             for options in optblock:
                 g = re.search(r"\(.*\)", options)
                 if g:
                     try:
                         h = str(g.group())     #strip parens off and make into string
                         h= h[1:-1]
-                        print 'This is string about to be h', h
+                        print 'WTF','This is string about to be h', h
                         num = int(h)                    #make it an int.
                     except:
                         print 'Error converting textual question number to an int.'
                         return None
                     firstletter=r"[a-zA-Z].*"           #remove number at beginning
                     text = re.search(firstletter, options)
+                    
+                    try:
+                        print text.group()      #debugging
+                    except:
+                        print 'AHHHHHHH ERROR'
+                        
                     text = str(text.group())
                     temp = [text, num]
                     optlist += temp
