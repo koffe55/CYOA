@@ -9,8 +9,10 @@ from ttk import Frame, Style
 class cyoagui(Tkinter.Tk):
 
     reader = StoryReader(None)
-    color = 'azure1' #defined in \python27\tools\pynche\X\rgb.txt
-    color2 = 'blue3'
+    color = 'azure' #defined in \python27\tools\pynche\X\rgb.txt
+    color2 = 'blue3'    #prompt frame
+    color3 = 'blue3'    #past choices frame
+    color4 = 'white'    #text color
     past = ['Your Recent Choices:']   #list of all choices made.
             
 
@@ -39,7 +41,7 @@ class cyoagui(Tkinter.Tk):
 
                 #display past choices.
         self.pasttxt = Tkinter.StringVar()
-        plabel = Tkinter.Label(self.frame, textvariable=self.pasttxt, anchor='w', fg='white',
+        plabel = Tkinter.Label(self.frame, textvariable=self.pasttxt, anchor='w', fg=self.color4,
                               bg=self.color2, width=100, wraplength=600, justify='left')
         plabel.grid(column=0, row=10, columnspan=2, rowspan=3, sticky='NWSE')
         self.pasttxt.set(self.past)
@@ -47,7 +49,7 @@ class cyoagui(Tkinter.Tk):
             #Choices label
         self.choicetxt = Tkinter.StringVar()      
         self.clabel = Tkinter.Label(self.frame, textvariable = self.choicetxt,
-                              anchor="w", fg="white", bg=self.color2,
+                              anchor="w", fg=self.color4, bg=self.color3,
                                relief ='ridge', width=100, wraplength=600,
                                justify='left')
         self.clabel.grid(column=0, row=0, columnspan=2, rowspan=3, sticky='NWSE')
