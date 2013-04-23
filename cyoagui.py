@@ -76,7 +76,7 @@ class cyoagui(Tkinter.Tk):
         restartbut.grid(column=3,row=1,sticky='NWSE')
 
             #Radio buttons
-        self.CreateRadio(1)
+        self.CreateRadio(0)
 
             #'Next' buttons
         button = Tkinter.Button(self.frame, text=u"Next", command=self.OnNext)
