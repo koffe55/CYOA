@@ -3,6 +3,8 @@ import time
 import re
 class StoryReader:
 
+    debug = False
+    
     def __init__(self,parent):
         self.q=1
         self.loadstory()
@@ -10,8 +12,9 @@ class StoryReader:
     def loadstory(self):
         try:
             with open ("story.txt", "r") as myfile:
-                self.story=myfile.read().replace('\xe2\x80\x99', '\'').replace('\r', '\n').replace('\t', '')
-            print repr(self.story)
+                self.story=myfile.read().replace('\xe2\x80\x99', '\'').replace('\r', '\n')#.replace('\t', '').replace('\x92', "\'").replace('x96', "-")
+                self.story = self.story.replace('\t', '').replace('\x92', "\'").replace('x96', "-")
+            if self.debug: print repr(self.story)
         except:
             print("Couldn't find the story.txt file." +
                   "Make sure that this text file is in the same"
@@ -26,7 +29,7 @@ class StoryReader:
         if x:
             return True
         else:
-            print "Question " + str(question) + " doesn't seem to exist"
+            print "ERROR: Question " + str(question) + " doesn't seem to exist"
             return False
 
     def FindBlock(self,num, splitup):
@@ -36,20 +39,20 @@ class StoryReader:
             block = re.match(reg3, questions, re.DOTALL)
             if block:
                 return block.group()
-        print 'Cant find question block.'
+        print 'ERROR: Cant find question block.'
     
     def GetOptions(self, block):        #takes question block, returns choice text, number
         optlist =[]
         optblock = re.findall(r"\(.*", block)      #find all options
         if optblock:
-            print optblock
+            if self.debug: print optblock
             for options in optblock:
                 g = re.search(r"\(.*\)", options)
                 if g:
                     try:
                         h = str(g.group())     #strip parens off and make into string
                         h= h[1:-1]
-                        print 'WTF','This is string about to be h', h
+                        if self.debug: print 'This is string about to be h', h
                         num = int(h)                    #make it an int.
                     except:
                         print 'Error converting textual question number to an int.'
@@ -58,17 +61,17 @@ class StoryReader:
                     text = re.search(firstletter, options)
                     
                     try:
-                        print text.group()      #debugging
+                        if self.debug: print text.group()
                     except:
-                        print 'AHHHHHHH ERROR'
+                        print 'ERROR: Tried to remove number text from choice, failed.'
                         
                     text = str(text.group())
                     temp = [text, num]
                     optlist += temp
                 else:
-                    print 'error: Couldnt seem to find options associated with that question.'
+                    print 'ERROR: Found that question, but no choices.'
         else:
-            print 'Couldnt find options.'
+            print 'ERROR Couldnt find options.'
         return optlist
 
     def GetText(self, question):       #Find text prompt
@@ -94,7 +97,7 @@ class StoryReader:
         
         block = self.FindBlock(question, self.splitup) #get textblock    
         optlist = self.GetOptions(block)        #pass it here to serpeate out options
-        print optlist
+        if self.debug: print optlist
         return optlist
    
 

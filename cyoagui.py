@@ -8,13 +8,16 @@ from ttk import Frame, Style
 
 class cyoagui(Tkinter.Tk):
 
+        #Class Objects
     reader = StoryReader(None)
-    color = 'azure' #defined in \python27\tools\pynche\X\rgb.txt
-    color2 = 'blue3'    #prompt frame
-    color3 = 'blue3'    #past choices frame
-    color4 = 'white'    #text color
     past = ['Your Recent Choices:']   #list of all choices made.
-            
+
+        #Preferences and Options
+    color = 'lavender' #defined in \python27\tools\pynche\X\rgb.txt
+    color2 = 'cornflower blue'    #past frame
+    color3 = 'cornflower blue'    #choices frame
+    color4 = 'black'    #text color
+    debug = False
 
     def __init__(self,parent):
         Tkinter.Tk.__init__(self,parent)
@@ -42,7 +45,7 @@ class cyoagui(Tkinter.Tk):
                 #display past choices.
         self.pasttxt = Tkinter.StringVar()
         plabel = Tkinter.Label(self.frame, textvariable=self.pasttxt, anchor='w', fg=self.color4,
-                              bg=self.color2, width=100, wraplength=600, justify='left')
+                              bg=self.color2, width=100, wraplength=600, justify='left', font=("Arial", 10))
         plabel.grid(column=0, row=10, columnspan=2, rowspan=3, sticky='NWSE')
         self.pasttxt.set(self.past)
        
@@ -50,7 +53,7 @@ class cyoagui(Tkinter.Tk):
         self.choicetxt = Tkinter.StringVar()      
         self.clabel = Tkinter.Label(self.frame, textvariable = self.choicetxt,
                               anchor="w", fg=self.color4, bg=self.color3,
-                               relief ='ridge', width=100, wraplength=600,
+                               relief ='ridge', width=100, wraplength=600, font=("Arial", 12),
                                justify='left')
         self.clabel.grid(column=0, row=0, columnspan=2, rowspan=3, sticky='NWSE')
         self.choicetxt.set(u"Choices will be displayed below.\n")
@@ -76,7 +79,7 @@ class cyoagui(Tkinter.Tk):
         restartbut.grid(column=3,row=1,sticky='NWSE')
 
             #Radio buttons
-        self.CreateRadio(0)
+        self.CreateRadio(0)     #Find question zero for initialization.
 
             #'Next' buttons
         button = Tkinter.Button(self.frame, text=u"Next", command=self.OnNext)
@@ -101,7 +104,7 @@ class cyoagui(Tkinter.Tk):
         try:
             with open ("about.txt", "r") as myfile:
                 AboutFile=myfile.read().replace('\xe2\x80\x99', '\'')
-                print 'Success'
+                if self.debug: print 'Successfully opened About statement.'
                 about = mess.showinfo("About The Project", AboutFile)
         except:
             print("Couldn't find the about.txt file. Printing default message instead.")
@@ -113,7 +116,7 @@ class cyoagui(Tkinter.Tk):
     def OnRestart(self):
         ans = mess.askokcancel("Really restart?", "Are you sure you want to restart?")
         if ans == True:
-            print 'Restarting from question 0'
+            if self.debug: print 'Restarting from question 0'
             self.ClearRadio()
             self.past = []              #reset past choices list
             self.pasttxt.set(self.past)
@@ -131,7 +134,7 @@ class cyoagui(Tkinter.Tk):
         self.OnNext()   #Pressing enter is just like clicking next.
         
     def OnNext(self):
-        print ("this is the value you chose... "+str(self.v.get()))
+        if self.debug: print ("this is the value you chose... "+str(self.v.get()))
         question = self.v.get()
         self.PastList()         #record this choice.
         self.CreateRadio(question)
@@ -142,7 +145,7 @@ class cyoagui(Tkinter.Tk):
         try:
             self.b
         except:
-            print 'Tried to clear radio buttons, but there aren\'t any.'
+            if self.debug: print 'Tried to clear radio buttons, but there aren\'t any.'
             return
         for i in range(len(self.b)):
             self.b[i].destroy()
@@ -164,9 +167,9 @@ class cyoagui(Tkinter.Tk):
         self.b= range(len(self.numbers))         #declare buttons.
         for i in range(len(self.numbers)):
             self.b[i] = Tkinter.Radiobutton(self.frame, text=self.choices[i], background=self.color,
-                                       variable=self.v, value=self.numbers[i], wraplength=800)
+                                       variable=self.v, value=self.numbers[i], wraplength=800, font=("Arial", 11))
             self.b[i].grid(column=0, row=(3+i), sticky='w')
-        #print "Done creating buttons"
+        if self.debug: print "Done creating buttons"
 
 if __name__ == "__main__":
     app = cyoagui(None)
