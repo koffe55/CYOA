@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 import Tkinter
 
 import tkMessageBox as mess
@@ -11,6 +12,7 @@ class cyoagui(Tkinter.Tk):
         #Class Objects
     reader = StoryReader(None)
     past = ['Your Recent Choices:']   #list of all choices made.
+    #v, a Tkinter.IntVar() that is instantiated after Tkinter.TK.__init__
 
         #Preferences and Options
     color = 'lavender' #defined in \python27\tools\pynche\X\rgb.txt
@@ -24,9 +26,9 @@ class cyoagui(Tkinter.Tk):
         self.parent = parent
         self.v = Tkinter.IntVar()#v is a global variable
         self.v.set(0)        #that holds the int corresponding to a radiobutton
-        self.initialize()
+        self.initializeGUI()
 
-    def initialize(self):       #GUI stuff.
+    def initializeGUI(self):       #GUI stuff.
         self.grid()
 
                #frame that contains the entire GUI
@@ -40,8 +42,6 @@ class cyoagui(Tkinter.Tk):
         self.entry = Tkinter.Entry(self, textvariable = self.entryVariable)
         self.entry.bind("<Return>", self.OnPressEnter)      #Bind <enter> key to an event
 
-       
-
                 #display past choices.
         self.pasttxt = Tkinter.StringVar()
         plabel = Tkinter.Label(self.frame, textvariable=self.pasttxt, anchor='w', fg=self.color4,
@@ -49,15 +49,13 @@ class cyoagui(Tkinter.Tk):
         plabel.grid(column=0, row=10, columnspan=2, rowspan=3, sticky='NWSE')
         self.pasttxt.set(self.past)
        
-            #Choices label
-        self.choicetxt = Tkinter.StringVar()      
-        self.clabel = Tkinter.Label(self.frame, textvariable = self.choicetxt,
+            #Story Text
+        self.storytxt = Tkinter.StringVar()      
+        self.clabel = Tkinter.Label(self.frame, textvariable = self.storytxt,
                               anchor="w", fg=self.color4, bg=self.color3,
-                               relief ='ridge', width=100, wraplength=600, font=("Arial", 12),
-                               justify='left')
+                             width=100, wraplength=600, font=("Arial", 12), justify='left')
         self.clabel.grid(column=0, row=0, columnspan=2, rowspan=3, sticky='NWSE')
-        self.choicetxt.set(u"Choices will be displayed below.\n")
-
+        self.storytxt.set(u"Choices will be displayed below.\n")
 
                 #configuartion
         for r in range(7):
@@ -122,7 +120,7 @@ class cyoagui(Tkinter.Tk):
             self.pasttxt.set(self.past)
             self.CreateRadio(0)
             prompt = self.reader.GetText(0)
-            self.choicetxt.set(prompt)
+            self.storytxt.set(prompt)
 
 
     def OnExit(self):
@@ -139,7 +137,7 @@ class cyoagui(Tkinter.Tk):
         self.PastList()         #record this choice.
         self.CreateRadio(question)
         prompt = self.reader.GetText(question)
-        self.choicetxt.set(prompt)
+        self.storytxt.set(prompt)
     
     def ClearRadio(self):
         try:

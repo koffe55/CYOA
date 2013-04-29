@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 from dialog import *
 import time
 import re
@@ -13,7 +15,7 @@ class StoryReader:
         try:
             with open ("story.txt", "r") as myfile:
                 self.story=myfile.read().replace('\xe2\x80\x99', '\'').replace('\r', '\n')#.replace('\t', '').replace('\x92', "\'").replace('x96', "-")
-                self.story = self.story.replace('\t', '').replace('\x92', "\'").replace('x96', "-")
+                self.story = self.story.replace('\t', '').replace('\x92', "\'").replace('x96', "-").replace('\x94', '"')
             if self.debug: print repr(self.story)
         except:
             print("Couldn't find the story.txt file." +
