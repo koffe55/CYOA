@@ -1,0 +1,478 @@
+
+[0]
+Where do you want to start? 
+(1) Cabin 
+(2) Forest 
+(3) Cave  
+(4) River
+
+If selected [1]:
+ 	Today is the big day! Your friends arranged a hiking trip to celebrate the end of the school year, and you are all staying in your crushís family cabin. Your only supervision is the house cat, Franklin, and heís not even around that often. Everyone woke up fresh and excited but not you. This morning, you woke up quite sick! Oh, no. Do you want to:
+      (99) Go to the store for medicine, maybe you can join them when you get back.
+      (5) Stay in the cabin. Your friends will hike without you while you recover.
+      
+If selected [99]
+	You head out early, before your friends leave for the trail, and drive in the direction you think is towards the local convenience store to pick up cold medicine. You want to be in tip-top shape for this hike. Music blaring through the speakers, you are slow to notice the sputtering coming from the engine of your momís ten year old minivan, and you drift to a stop on the side of a road whose name you cannot recall. Unable to get the car to start, you have three options:
+	(7) Walk to the store, it cannot be that far away.
+	(8) Stay in the car. The world is a scary place, and you are very alone and very lost.
+	(9) Walk back to the cabin.  You can only be sure of the way you came, but, then again, it is no easy, or short, walk.
+
+If selected [7]
+	Which way, which way?
+	(10) Up
+	(11) Down
+
+If selected [10]
+      Oh my, this cannot be right at all. It seems youíre walking into nothing but trees. Can you even see a trail at this point? So, so lost. 
+      (102) Next
+
+If selected [11]
+	Your directional skills are excellent, what natural talent! You entered the dingy, secluded convenience store with creeping dread, and you rush through your purchase of the only box of cold medicine you can find.
+       ìYou really shouldnít be here alone should you?î the cashier sneers.
+      ìUh, no, Iím not alone my friend is right out hereÖî you stammer unconvincingly as you scramble back out into the sunlight. Itís only nine am, so you have an hour until your friends leave for the trails. But where did you come from again? Which way should you be walking?
+      (12) Left. Definitely left. No, wait. That doesnít look right.
+      (13) Right. Maybe. OrÖ maybe not? This doesnít look right either.
+      
+If selected [12]
+	Your sense of direction really is on point. It was a long walk back, and you had a lot of doubts, but sticking to your gut was the best decision. You managed to catch your friends before they left, and even convinced your crush to stay and keep you company while you recover. Youíll get the minivan tomorrow. Today was strangely successful. Good job!
+	(112) The End
+
+If selected [13]
+      Maybe that sense of direction isnít so great. It seems youíre walking into nothing but trees. Can you even see a trail at this point? So, so lost. Didnít you just see that big rock?
+      (102) Next
+
+If selected [8]
+	Staying in the car is probably best. Could those be rain clouds behind you? Your phone! You have your cell phone. What a genius ideaÖ wait did you charge that last night? 
+	(14) Chance A
+	(15) Chance B
+
+If selected [14]
+	Lucky day! You have service and there is enough battery left for one phone call. Who are you going to call? 
+	(16) Call your crush.
+	(17) Call your friend.
+	(18) Ghostbusters!
+
+If selected [16]
+	Sweet! Your crush picked up and is going to come get you before everyone heads out for the trail. 
+	(110) Next
+
+If selected [17]
+	Your friend didnít pick up and you could not leave a voicemail before the phone died. Guess itís time to walk.
+ 	(7) Walk to the convenience store.
+
+If selected [18]
+	I donít have Billy Murrayís number! And neither do you. Try again.
+	(14) Next
+
+If selected [15]
+	Your phone wonít turn on. No phone, no car. Guess itís time to walk.
+	(7) Walk to the convenience store.
+
+If selected [9]
+	(110) Next
+
+If selected [110] 
+      You are still sick, you donít have medicine, and you definitely do not have a car to get any. Your friends stuff their packs with essentials, excitedly chattering about the weather, the trail, and whether or not it is truly essential to bring that tenth bottle of water.  
+      Your crush turns, ìDo you think you can make it out with us today?î
+      ìHmm..î you pause, 
+      (5) ìActually, I think I feel too sick to go today. I should just post up here, watch T.V, and try to recover so I can join you all tomorrowî
+      (6) ìYeah, you know what, I will,î and with that, you begin to pack.
+        
+      
+If selected [5]
+	From the porch, you watch your friends leave. The novelty of being on their first solo hike hasnít worn off yet, and noticing this makes you want to join them even more, but you retreat into the house when the trees swallow the party whole. You need to get better, and fast, so you can join them tomorrow.
+      To the kitchen or the couch? Man, when everyone is gone, it feels kind of strange in here, creepy almost. 
+      (98) Make lunch. The grumble coming from your stomach is making the house cat glare at you.
+      (19) Go watch TV. Youíre exhausted, and the couch looks really inviting.
+      
+If selected [98]
+	Great! Okay, what do we have? Canned soup, lunchmeat, and bread. How appetizing Ö
+	(20) Soup
+	(21) Sandwich
+
+If selected [20]
+	Soup it is. Thereís no microwave in here, so you have to use the gas stove, which youíre almost positive you remember how to use. Ten minutes isnít that long so you decide to wait in the kitchen and see what else you can find. While your head is stuck in a bottom cupboard examining the large spice rack and a jar labeled ìcorianderî, something streaks behind you. Your head hits the shelf above it with astonishing force when you jump backwards out of the cabinet in time to see a grey, striped tail disappear into the living room. Darn cat. 
+	(22) Chase the cat. 
+
+If selected [22]
+	You find Franklin lounging in an enormous library in proportion to the rest of the cabin. After administering a stern scolding to the cat, you decide to explore the new room. What if you pull one of these books out, and the door swings open to reveal more secret rooms, passageways, or maybe even hidden treasure? Your daydream gets a little carried away as you move through the room, pulling books down and putting them back when no magical door appears. When you get to the end of the row, you are pulled out of your fantasy by the smell of Ö smoke? Your soup! Oh, no; oh, no; oh, no! You almost fly into the kitchen to discover a fire that has not only claimed the stove itself but also the surrounding cabinets.
+	(23) RUN!
+	(24) Put it out! Quick, before the whole cabin is ash, and youíre to blame.
+
+If selected [23]
+	You sprint out the front door, and, glancing behind you to make sure the fire isnít closing in, you spot Franklin. He sits by the doorway to the living room with panic etched in his skinny frame. You pause in the middle of the yard, staring at the house cat you barely know, making the hard decision.
+	(25) Go back into the house to save him!
+	(26) Keep running towards the woods. Youíre sure heíll make it out. Plus, cats have nine lives and you only have one. Right?
+
+If selected [25]
+	Franklin dashes farther into the house as soon as you start running towards him, but you committed to saving his furry little life, and youíre not going to give up that easy. You run up the stairs after him just in time to see him leap from the second story window. Cats do always land on their feet. You turn to make a quick exit down the stairs, but the fire has already started its way up.
+	Two days later, your friends arrive home, battered from trails they got lost on.
+	ìWhaÖ what happened?î your crush stammers out. The house is gone. So are you.
+	(112) The End.
+
+If selected [26]
+	You feel a little guilty running into the woods, but its quickly overwhelmed by your relief to be alive. That cat is too crafty not to make it out. Your friends havenít been gone that long! Maybe you could find them and tell them what happened if you could just find the trail. Havenít you seen that big rock before?
+	(102) Next
+
+If selected [24]
+	You look around frantically for that big red thing that normally puts out fires with a gust of white, fluffy air, but you are at a loss. You grab blankets from the couch and start beating the fire with it, because you think you saw that in a movie once. Franklin screeches past you out the front door; his tail is on fire, as are the blankets youíre holding.
+	Two days later, your friends arrive home, battered from trails they got lost on.
+	ìWhaÖ what happened?î your crush stammers out. The house is gone. So are you.
+	(112) The End.
+
+If selected [21]
+	Good choice. Quick and easy, and you even found lettuce and tomato. After crafting possibly the most beautiful and appetizing sandwich you have ever seen in your life, you have to find a place to eat it.
+	(27) To the couch! You can watch TV while you enjoy this masterpiece of food.
+	(28) To the porch! Itís such a lovely day.
+
+If selected [27]
+	(19) Next
+
+If selected [28]
+	The sun filters in patches onto the porch, and the swing is positioned right in the center of one. You relax, eating and enjoying the warmth. Half way through your sandwich, you notice a man walking calmly up the drive to the porch. Your heart starts to quicken; you have always been told not to talk to strangers. His gait is self-assured and seemingly harmless enough to convince you to stay. After all, heís already seen you.
+	ìHello, there. I was wondering,î Wait. He looks awfully familiarÖ ìIf I could get a jug of water from you? I work at the convenience store down the way, and youíre the only occupied cabin for miles.î The emphasis on miles does nothing to comfort you. ìMy truck broke down, overheated actually, ëbout half a mile away. Itís just the radiator, I think. Water should be enough to get me home.î Where is his home? Why isnít there anyone else around? You notice you havenít spoken a word yet, and also that he hasnít exactly said anything threatening. If you donít get him water, itís not like he can just drive away.
+	(29) ìUh, yeah. Stay here, let me go get it.î
+	(30) ìSure, you have a bottle right? The kitchen is this way.î
+
+If selected [29]
+	He ignores your command and follows you in. How charming. Again, you feel uneasy, especially when Franklin hisses at the man before scuttling away. 
+	ìItíll just be easier if I come in, really,î he says, ìpromise, Iíll be quick.î You smile at him warily and wait for him to finish filling up the old milk jug. ìThanks for your help. I donít know what I would have done if it werenít for you being here Ö uh, tell yourÖ parents?î he questions, peering over your shoulder and into the hall, ìI said thank you and to watch their cars. Thereís been some weird things happening around here recently.î 
+	ìSure thing, I will definitely tell them. Goodbye, sir. Have a nice day!î you say, forcing out a cheerful smile. As soon as he is out the door, you bolt it shut, lock all of the windows, and hide in the bathroom upstairs with the cat until your friends come home, dirty from their hike. After telling them all of the terribly bizarre things that happened today, they agree itís best to leave tonight at the latest. What a strange, strange trip.
+      (112) The End.
+      
+If selected [30]
+	ìThanks,î he smirks, glancing around as he steps foot inside the door. ìThis should work fine,î you think you hear him murmur.
+	ìUh, what?î you spin around in time to see him, weapon raised, smile that creepy convenience store grimace. This was the most unfortunate choice. Maybe you should have had soup?
+	(112) The End.
+
+If selected [19]
+	The couch was a great choice; itís even more comfortable than it looks. And old cartoons are on, which are, of course, your guilty pleasure. Fifteen minutes into ìScooby Dooî, you hear a knock that, at first, you assume is the monster pursuing Daphne and Fred. When it repeats, your confusion grows. You glance at the front door and see a human sized shadow on the curtain. 
+	(31) Hide!
+	(32) Answer the door.
+
+If selected [32]
+	You quickly stride to the front door, but your resolve is diminishing as you approach. Your heart starts to quicken. You have always been told not to talk to strangers, but he has already seen you. You swing the door open, hoping fervently that itís your friends. Itís not.
+	ìHello, there. I was wondering,î Wait. He looks awfully familiarÖ ìIf I could get a jug of water from you? I work at the convenience store down the way, and youíre the only occupied cabin for miles.î The emphasis on miles does nothing to comfort you. ìMy truck broke down, overheated actually, ëbout half a mile away. Itís just the radiator, I think. Water should be enough to get me home.î Where is home? Why isnít there anyone else around? You notice you havenít spoken a word yet, and also that he hasnít exactly said anything threatening. If you donít get him water, itís not like he can just drive away.
+	(33) ìUh, yeah. Stay here, let me go get it.î
+	(30) ìSure, you have a bottle right? The kitchen is this way.î
+
+If selected [33] 
+	He ignores your command and follows you in anyway. How charming. You continue to feel uneasy, especially when Franklin hisses at the man before scuttling away. 
+	ìItíll just be easier if I come in, really,î he says, ìpromise, Iíll be quick.î
+	You smile at him warily and wait for him to finish filling up the old milk jug. 
+	ìThanks for your hospitality,î he says menacingly, ìI think Iíll stay a while.î
+	(34) ìWhat!?î
+	(35) RUN.
+
+If selected [35]
+	You sprint outside with all your strength and hope the tree cover will disguise you quickly enough. You glance back occasionally, and, over time, he disappears. Unwilling to stop moving forward even though your legs are screaming and your heart is pounding twice as fast as your feet, you slow to a jog.
+	(102) Next
+
+If selected [34]
+	Bad choice. The pause you took to process and question his threat gave him ample time to push past you and reach for the butchersí knives on the counter beside you. You snatch the gallon of water from his hand and swing it hard enough to knock him down, and hopefully out. But you know itís not like the movies, and you only have a minute before he wakes up. Quick! Hide. But where?
+	(36) The library
+	(37) A bedroom upstairs
+	
+If selected [37]
+	You hear him grunt as he pulls himself up in the kitchen and his footsteps as they advance towards the stairs. You are starting to think upstairs was a bad idea; there is nowhere to run, and everyone hides under beds, right?
+	(38) Jump out the window and risk the fall. Two stories is starting to look a lot taller than you remember, and there are no bushes to break your fall. But you can hear him slowly plodding towards youÖ
+	(39) Go into the closet at least you have more cover in there. Maybe thereís a weapon. But horror movie victims always hide there too!
+
+If selected [38]
+	You leap from the window, your heart lodging in your throat and the impact occurring much sooner than you imagined. You turn to sprint away into the cover of the trees, but the pain in your leg prevents you from taking more than one step. You look down andÖ 
+	(40) Chance A
+	(41) Chance B
+
+If selected [40]
+	Oh, no. Your leg should not bend at the shin like that. The man lunges out of the front door with wild eyes that settle on you before you can even get half way to the woods. Those darting, empty eyes will be the last thing you see.
+	(112) The End.
+
+If selected [41]
+	Your leg appears to be fine, so you sprint madly across the front yard and into the forest. You glance back occasionally, and, over time, he disappears. Unwilling to stop moving forward even though your legs are screaming and your heart is pounding twice as fast as your feet, you slow to a jog.
+	(102) Next
+
+If selected [39]
+	Once in the closet, you discover a small door that appears to lead to the garage attic. Seeing as this is your only out, you climb through and shut it behind you, praying he does not see it when he opens the closet. As the half door clicks quietly behind you, you hear his heavy shuffling across the bedroom carpet, which pauses while you assume he looks under the bed. It resumes, and you soon hear the creak of the closet door, and another as he closes it. Your relief is fleeting as you realize how very trapped you are. Over a day later, your friends return from their hike, haggard and tired from getting lost. Under the impression that the man is gone, you rush downstairs, force them all into the cars, and speed out of town. You recount your story and everyone shares your terror and provides comfort. An hour into the drive, you still do not feel safe, but you are almost home. But wait, what was that thumping noise from the trunk?
+	(112) The End.
+
+If selected [36]
+	Good! Itís close and on the first floor. You know itís foolish to go up a level and get trapped when being chased; youíve seen ìScreamî about five times now. A frantic glance assesses the room, which contains a thick writing desk, walls of bookshelves, and a large window with a reading nook underneath. The desk isnít enough cover, and the shelves provide no protection, which leaves the window and the nook.
+	(42) Try to open the nook and get in. Theyíre usually hollow for holding books and pillows right?
+	(43) Climb out the window and run.
+
+If selected [42] 
+	Thereís a layer of pillows and blankets on the bottom that you think you can use to cover yourself, but how are you going to breathe? You lower yourself in silently, and, placing your palms on the lid, you lower it quietly down until it fits snug. The floor sends shockwaves through you as each looming footstep lands in the direction of the library. You hold your breath and listen to him slowly circle the room twice and exit. Now what?
+	(43) Get out of that thing, quick, and climb out the window. You canít remember how long someone can survive in a box.
+	(44) Stay. He is so close, and he might see you. Plus youíre pretty sure itís, like, three hours.
+
+If selected [44]
+	Wait maybe it wasnít hours. Either way, you missed your opportunity, and you can hear him shuffling around the library looking for who-knows-what. You find yourself inventing stories of treasures, family feuds, and secret passageways as you drift into a half-sleep that will be your last.
+	(112) The End.
+
+If selected [43]
+	You throw open the window, climb out, and sprint madly across the yard and into the forest. Youíre hoping the tree cover will disguise you quickly enough that he wonít be able to find you. You glance back occasionally, and over time, he disappears. Unwilling to stop moving forward even though your legs are screaming and your heart is pounding twice as fast as your feet, you slow to a jog.
+	(102) Next
+
+If selected [31]
+	You crawl towards the window and peek out the bottom. You were really hoping to see your friends, but instead see a strangely familiar looking man. You linger at the bottom of the window for a few seconds too long, because he looks down and makes sustained eye contact with you. Frightened, you disappear behind the curtain, and he starts kicking the door with enough force to break it. You really need to hide, and quick. Where?
+	(36) The library
+	(45) A bedroom upstairs
+
+If selected [45]
+	You hear the hinges break, the door slam harshly into the wall, and his footsteps as they advance towards the stairs. You are starting to think the second floor was a bad idea; there is nowhere to run, and everyone hides under beds right?
+	(38) Jump out the window and risk the fall. Two stories starts to look a lot taller than you remember, and there are no bushes to break your fall. But you can hear him slowly plodding towards you!
+	(39) Go into the closet at least you have more cover in there. Maybe thereís a weapon. But horror movie victims always hide there too!
+
+If selected [102]
+      After wandering for quite a while, slowly building up panic in your chest, you run straight into something while looking behind you. Oh! Itís your crush, and a wave of relief soothes you. The initial confusion subsides, and you begin to recount your day, which you can hardly believe yourself. It seems almost like a story you read once. You all decide that there is nothing more you can do; going back to the house doesnít make sense now. 
+	ìWhy donít we just keep hiking our trail, and by that time it will probably be safe to go back, grab the cars and go home,î Taylor, your best friend since first grade, chimes in, and you could not agree more. The shade is cool and calming and the chatter from your friends makes you almost forget the beginning of today.
+	(46) Walk with your best friend
+	(47) Walk with your crush
+	
+If selected [6]
+	As you pack with your friends, you start to get much more excited for the hike. Itís only the sniffles! The thought of staying alone in this solitary cabin scares you anyways, even with Franklin around. At ten - thirty a.m., your group is ready to head out to the trail, and youíre the last one out the door when a glint catches your eye from the table.
+	ìWait, guys! The compass,î you shout, running back to the kitchen table. That was close; you wouldnít make it out without it. You laugh and run after the pack of your best friends, wondering how you got so lucky.
+	(2) Next
+
+If selected [2]
+	You are greeted with unquestionable beauty, the best and most wild nature has to offer. The sun cuts through the leaves and plays in groups on the trail that hop on top of your feet as you step through them. The sound of your best friend Taylorís laugh breaks your absorption with the nearest flower. Catch up!  
+	(46) Walk with your best friend
+	(47) Walk with your crush
+
+
+If selected [46]
+	Taylor updates you on the path youíre going to take and the river where youíre going to eat lunch. Youíre only half attentive though; your crush is bubbling with energy in a conversation that is not to or about you, and that needs to change. 
+	ìYo; hey! Throw me the compass! I want to navigate,î you shout.
+	(48) Chance A
+	(49) Chance B
+
+If selected [47]
+	You open your mouth to say something, and your mind goes blank. Nothing! While you struggle to find your words, your crush looks at you expectantly, making it even harder to think. Another friend, Avery, senses your distress. ìI canít believe the day youíve had,î Avery interjects graciously, sparing you.
+	ìWhat a horrible chain of events,î your crush agrees with a shake of their head, ìI sure hope your luck turns around, or weíre all in trouble. I canít wait to be home safe.î
+	(53) ìIím sure it will. I mean it canít possibly get worse right?î you reply, grateful for the moment to gather your thoughts.
+	(54) ìI know! I canít believe it either. Have you hiked this trail before with your family?î you reply, feeling slightly more confident.
+
+If selected [48]
+	You reach up to snag the compass from its flight, but it passes through your spread fingers and hits the tree behind you. When you turn to pick it up and hide the blush crawling across your cheeks, you find it unusable and in several pieces. 
+	ìUhh, it might be a little hard to get to the river nowÖî Taylor announces, peering over your shoulder. There is nothing you can do, so you gather the remnants and keep walking along the trail. You all come to a dead end sooner than you hoped. 
+	(50) Turn around and walk back up the path until you see a turn. Trouble is, you donít remember seeing any offshoots.
+	(51) Keep going straight into the woods, maybe the path is just hidden under some brush and fallen trees for a while.
+	(52) Turn left. Your gut says left, and you think you hear water in that direction. You can never really tell though with the way sound bounces off the trees.
+
+If selected [49]
+	You deftly snagged the compass from its flight. Your crush notices and teases, ìNice catch, show off!î 
+	ìThank you, thank you,î you bow graciously like a lead actor during a standing ovation before jogging over to join your crush and maybe show off a little more.  
+	(47) Next
+
+If selected [50]
+	Your group turns around, collectively confused and frustrated. No one can remember seeing a turn in the trail anywhere, and the map is fairly unhelpful without the compass, but you try to study it anyway. ìRun!î you hear someone yelp. 
+	ìFunny, guys. Real funny,î you mutter, lost in the map, but a low growl startles you out of your concentration. You look wildly around, panicking. Your friends are fleeing in different directions into the trees and in front of you stands a bristling, snarling black bear.
+	(55) Play dead.
+	(56) Fight back.
+	(57) Climb the nearest tree.
+
+If selected [51]
+	Good call! The path was obscured for some time, but you found it again and hiked the remaining distance to the river. Good thing you didnít go left.
+	(4) Next
+
+If selected [52]
+	Forming a line behind you, your friends followed your zigzagging path directed entirely by the sound of water. Some distance in, you begin to fear that sound really does echo in strange ways in a forest, and you donít think you can retrace your random path. Taylor stumbles on a rotting tree behind you. His fall is unkindly broken by a dagger of a rock that slices his leg deep and vertically. He gasps in pain on the ground.
+	(58) Rip a shirt to tie as a compression bandage.
+	(59) Pour your water on the wound 
+	
+If selected [53]
+	ìRight,î your crush replies. An uncomfortable silence born by nerves and lack of conversation descends, and leaves you squirming, but not for long. Taylor stumbles on a fallen, rotting tree behind you. His fall is unkindly broken by a dagger of a rock that slices his leg deep and vertically. You run back to him.
+	(58) Rip a shirt to tie as a compression bandage.
+	(59) Pour your water on the wound 
+
+If selected [54]
+	ìActually, we havenít! Iíve been to the river before but we took the easier trail. I have a younger brother, and he canít handle this one. I think we can do it though,î your crush then launches into stories about past trips and the cabin. You listen attentively, contributing when necessary. Soon, or at least it feels like soon, you realize that you canít see your group on the path anymore. You and your crush have fallen fairly far back while chatting. Your crush doesnít seem too worried though. ìCímon let me show you this cool cave. Iím sure itís around here somewhere!î your crush grabs your wrist, and you follow, happy to be going on a separate adventure.
+	(3) Next.
+
+If selected [55]
+	Playing dead would work if this was a grizzly bear, but this is a black bear, and black bears donít fall for your tricks. You do make it to lunch by the river, except youíre not the one eating.
+	(112) The End.
+
+If selected [56]
+	You swing your backpack off your back and in the direction of the bear, smacking it on the nose. Youíre confident that this is what Discovery Channel taught you to do, and at this point, you donít really have another choice. The bear retreats after receiving a few more blows and managing to scratch you. You stand tall and still with your arms up until you canít see the bear anymore. As soon as it disappears, you turn and sprint back towards and past the dead end. The trail picks back up, and leads to the river. By some miracle, everyone that ran from the bear ended up at the riverbank, exhausted and happy to see each other.
+	(4) Next
+
+If selected [57]
+	Black bears are excellent climbers, unfortunately, and you are not. Maybe you should have played dead? 
+	(112) The End.
+
+If selected [58]
+	As you tie the shirt around his wound, Taylor groans unhappily but manages to rise after and limp along with the group. The bleeding stops by the time you find your way to the river. Good job! 
+	(4) Next.
+
+If selected [59]
+	You pour the last of your canteen water on Taylorís wound to flush out anything that shouldnít be there. Preventing against infection is a good priority. When youíre done, Taylor groans and rises. Heís able to limp along with the party for some distance, albeit slowly. After a half hour of this procession, Taylor collapses, exhausted from the amount of blood he lost through the uncovered wound. You canít leave your best friend alone in the woods like this.
+	(60) Stay with Taylor. The rest of your friends will bring back a rescue party when they get to safety.
+	(61) Carry Taylor. You donít know how long youíll have to be there or if you can take care of both of you.
+
+If selected  [60]
+	A rescue party never comes. Whether itís because your friends never made it to safety or if the rescue party just canít find you, youíll never know. 
+	(112) The End.
+
+If selected [61]
+	You carry Taylor with the help of Avery until you find the river, where you can rest for a moment. The bleeding surprisingly hasnít stopped by now, so you decide to tie the shirt around the leg to staunch the bleeding. Youíre all grateful for the rest that the river provides, along with a chance to orient yourselves.
+	(4) Next
+
+If selected [3]
+	Youíre surprised at how quickly you both find the cave and that you can hear the river rushing from here. It is beautiful in its solitude. Youíre snapped out of your admiration when youíre pulled into the damp, dark cave unapologetically. Your crush points to a spot where someone spray painted a name, and explains that the local kids like to come here to escape their parents. ìA girl who used to live in a house a few down from my cabin showed me this. Sheís not there anymore, though. I never figured out what happened to her,î your crush continues, ìSome weird things happen around here, I think. Around the cabins I mean.î
+	ìNo kidding,î you sigh, relieved that itís just not your bad luck causing all of these problems. ìIím glad Iím out here, and not alone in the cabin alone anymore. Hey, letísÖî
+	(62) play a game!î
+	(63) explore more.î
+	(64) go the river.î
+
+If selected [62]
+	You decide on hide-and-seek, because the cave probably has enough places to hide and explore. You both agree not to go too deep into the cave, and that you will hide first. ìOneÖ twoÖ threeÖî your crush counts off. The cave splits into two parts. Where to?
+	(65) Left
+	(66) Right
+
+If selected [63]
+	ìOkay! I never went past the split before,î your crush says, pointing forward. Where to?
+	(68) Left
+	(67) Right
+
+If selected [64]
+	ìOkay,î your crush says, looking resigned. ìI thought youíd like that more.î You insist that it was great and that you want to make sure the rest of your group doesnít worry or leave you entirely behind. Plus, the rumbling in your stomach is echoing in the cave.
+	(4) Next
+
+If selected [65]
+	You turn left and stumble forward into the darkness. It takes a moment for your eyes to adjust, and when you see a large, egg shaped rock, you hide behind that. ìReady or not, here I come,î your crush yells, and with that the ceiling above you explodes into tiny pieces that screech and propel themselves forward. Quickly, you realize that ceiling pieces are bats, and that you probably wonít die in a collapsed leg of a remote cave. But bats! Get out of there, youíre probably sitting on or covered in their waste. Ew!
+	(69) Run back out! 
+	(70) Try to hide somewhere else.
+
+If selected [66]
+	You walk calmly back into the right-most section of the cave, looking around for some place to hide while your eyes adjust. You can still faintly hear the counting from the mouth of the cave. The ground begins to tremble, and so do you. Your crush calls your name, urging you to come back. You start to run towards the entrance, concentrating on the light and the silhouette of your crush. The shaking gets more violent and rocks fall and fill the entrance to the cave. Youíre trapped, and no one knows you both even left for here. 
+	(112) The End.
+
+If selected [67]
+	You walk together back into the darkness of the right-most section of the cave, treading carefully while your eyes adjust. You get about half way back when the ground begins to tremble. You both realize what is happening far too late, and by the time you turn around, rocks are falling and fill the entrance to the cave. Youíre trapped, and no one knows you both even left for here. 
+	(112) The End.
+
+If selected [68]
+ 	This side of the cave is endlessly dark and equally quiet, if not for the slow shuffle of your feet. A stone skitters across the hard floor, startling both of you and awakening the cave. The ceiling above you explodes into tiny pieces that screech and propel themselves forward. Quickly, you realize that ceiling pieces are bats, and that you probably wonít die in a collapsed leg of a remote cave. But bats! Ew!
+	(71) Run back out! 
+	(72) Keep going.
+
+If selected [69]
+	Your crush laughs and teases you as you streak out of the left side of the cave, looking disgusted and dirty. ìYou scared? Címon, letís go to the river. This is probably not the safest place to be anyways.î
+	(4) Next
+
+If selected [70]
+	Still unable to see clearly, you look for somewhere clean to sit. There is a darker patch that you think is a clear portion of rock. You sit back, but instead of connecting with a hard surface, you plummet into the darkness. Caves are a dangerous place; didnít your parents ever tell you that?
+	(112) The End.
+
+If selected [71]
+	Your crush laughs and teases you as you both streak out of the left side of the cave. ìYou scared? Címon, letís go to the river. This is probably not the safest place to be anyways.î
+	(4) Next
+
+If selected [72]
+	The light is getting dimmer, but your eyes are adjusting enough for you to see a second split coming up ahead. This time there are three.
+	(73) Left
+	(74) Center
+	(75) Right
+
+If selected (73)
+	You proceed a short distance without seeing anything notable, not that you can see much at all. ìYou think we should just leave?î you suggest to your crush, who has wandered ahead of you, but now stands too still. ìHelpÖî you hear the whimper, and you dash forward without thinking. An enormous web stretches from ceiling to floor and wall to wall, and now encases you, your crush, and several bats. How will you ever get out, and how will anyone ever find you here? You dread seeing the spider that spun this oversized trap.
+	(112) The End.
+
+If selected (74)
+ 	You barely get into this section of the cave before you hit a back wall, a dead end. ìWell, I guess thereís less to this place than I imagined,î your crush sighs, sounding disappointed in your failed adventure.
+	(73) ìWe can always go check out the left side,î you suggest hopefully.
+	(76)  ìItís okay, we should probably go to the river anyway. Theyíll be wondering where we are by now,î you reassure her.
+	(73) ìWhat about the right side?î
+
+If selected (75)
+	You walk together, noticing nothing but the otherís slightest movements. You get about half way back when the ground begins to tremble. You both realize whatís happening far too late, and by the time you turn around, rocks are falling and fill the entrance to the cave. Youíre trapped, and no one knows you both even left for here. 
+	(112) The End.
+
+If selected (76)
+	Following the rushing of the river, you happen upon it soon enough and spot your friends upstream. Excellent!
+	(4) Next
+
+If selected [4]
+	Great, you made it to the river. It should all be smooth sailing from here right? You gather around, eating a very late lunch and enjoying the sunlight and the sound of running water. While everyone is cleaning up, you hear Avery repeat your name several times. ìWhat!?î you cry, exasperated, turning your eyes up quickly to Avery. ìSn- suh- snake,î Avery murmurs, pale with fear. A foot away from you, a massive snake, coiled and hissing, stares at you.
+	(77) Run!
+	(78) Kick it.
+	(79) Stay still, itís probably harmless and will move on.
+
+If selected [77]
+	Which way do you run?
+	(80) Into the river
+	(85) Upstream
+	(86) Into the woods
+
+If selected [78]
+	Youíre foolish to think your reflexes and heavy limbs are quicker than a snakeís ability to strike. As soon as you lash out, the snakeís head whips around and attaches to your ankle. A searing pain envelops your right leg, and you follow through with your kick, sending the snake flying into the river. Itís surprising how fast the poison affects you. You wonít be making it home.
+	(112) The End.
+If selected [79]
+	Unbelievable. The snake hisses once more, unravels, and slithers into the woods. You have incredible luck. What should you do now?
+	(80) Jump in the river! Whatís the point of getting here if you canít enjoy it.
+	(81) Start walking back to the trail. Youíve had enough bad luck for today
+
+If selected [80]
+	You glance at your crush before taking off towards the edge and cannon-balling into the river. ìCímon! Join me,î you shout at your friends on the bank when you resurface, but they shake their heads at you. The current is swift, and the distance between you and your friends lengthens. You swim strongly against the current, and get to the bank with more effort than you expected. Triumphant, you climb out.
+	(81) Start walking back up the trail. Itís time to get moving.
+	(82) Jump back in! That was fun.
+
+If selected [81]
+	Which way did you come from again?
+	(83) Upstream
+	(84) Downstream
+
+If selected [82]
+	ìBabies!î you taunt, running back in. Your mouth gapes open, fish like, and panic registers in your eyes, gazing at nothing in particular. ëPike fish,í you think, glancing down to see the child-sized predator fish latched on to your leg. Wildly battering the fish, you float away, concentrating on getting it off your calf. The current is quicker, more forceful here. You cannot fight it to return to shore, and you will not surface again. 
+	(112) The End.
+
+If selected [83]
+	Awesome! Your sense of direction is improving. You find the trail pretty quickly and make it back by sundown. Everyone runs to the cars, grateful to be getting away from here and all of its curses. You return to your house by midnight, relatively unscathed for such a weekend.
+	(112) The End.
+
+If selected [84]
+	You walk downstream for quite some time before you start to sense that itís not the right direction. If you turn around now, youíll be hiking at night. Everything you have ever read discourages you from this. It might be safer to camp by the river, but you all really want to get home as soon as possible.
+	(87) Camp here.
+	(88) Turn around.
+
+If selected [85]
+	The snake slithers after you all the way to the edge of the forest. Strange. You wait for your friends to meet you, hoping they have the sense of direction you have. By the time they find you, the stars are your only light source. Though itís frowned upon, your group walks back through the trails at night, collectively jumping at the slightest noise. You make it back to the cabin and the cars before sunrise, and immediately drive off for home.
+	(112) The End.
+
+If selected [86]
+	You run straight into the woods, blocking your face from the sting of tree branches. ëHow fast can a snake travel? Am I really faster?í you think, speeding up and barely looking back. Eventually, you realize you have not seen the snake in a while, and slow to a brisk walk. Figuring you will eventually run into the trail, you keep walking forward. Somehow, you stumble upon it. ìOh, thank goodness, we looked for you everywhere,î Taylor cries when they see you on the path. You head home as dusk settles.
+	(112) The End.
+
+If selected [87]
+	Everyone swings off their pack, unloading supplies to set up tents and get settled. The tents are pitched hastily, and you still have some time before bed. What should you do?
+	(92) Get in river to bathe. You feel incredibly dirty.
+	(89) Start a fire. The nights are cold, and so are you. Plus, you can heat up some food. Are you all experienced enough to start one?
+
+If selected [88]
+	Itís so much harder to navigate in the dark, and your party gets lost several times. Thankfully, you end up back at the cabin, exhausted, the next morning. You know you canít stay in the cabin, so you hop in your cars and drive home. Youíre in the front seat of your crushís van, and Taylor snores comically behind you. You fight sleep, so you can talk and keep your crush from dozing off and crashing. We donít need any more disasters this weekend.
+	(112) The End.
+
+If selected [89]
+	Avery manages to get a fire started with wood from the edge of the forest. The fire is awfully close to the tents. Which way is the wind blowing? You wet your finger and lift it up to check, like you saw in a cartoon once.
+	(90) Chance A
+	(91) Chance B
+
+If selected [90]
+	The wind is blowing the fire away from the tents, thankfully, so you manage to stay warm through the night. Your group hikes back in the morning, as soon as the sun rises. No one can wait to get out of here. You make it back to the cabin and the cars before noon, and immediately drive off for home.
+	(112) The End.
+
+If selected [91]
+	You canít really tell, so you shrug and join the others in the tents. As soon as you drift off, a big gust of wind blows in just the right direction to start the edge of one tent on fire, and it quickly spreads. Why didnít you move the tents?
+	(112) The End.
+
+If selected [92]
+      You wade into the river slowly and begin to swim out until the water is waist high. The water drags at your legs when you stand and look back to the bank. Your mouth gapes open, fish like, and panic registers in your eyes, gazing at nothing in particular. ëPike fish,í you think, glancing down to see the child-sized predator fish latched on to your leg. Wildly battering the fish, you float away, concentrating on getting it off your calf. The current is quicker, more forceful here. You cannot fight it to return to shore, and you will not surface again.
+      (112) The End.
+      
+If selected [112]
+ 	Thanks for playing! 
+
+	~Kelsie and Jeff
+	(0) Try again?
+
